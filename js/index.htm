@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
-    <script type="text/javascript" src="./LercCodec.js"></script>
+    <script type="text/javascript" src="./dist/lerc-codec.js"></script>
 </head>
 <body>
     <div id="imageInfo">Image Header Info</div>
@@ -17,7 +17,7 @@
         document.getElementById('mapUrl').onchange();
 
         function showTile() {
-            var lerc = LERC();
+            var lerc = LERC;
             //UI elements
             var div_Info = document.getElementById("imageInfo");
             var div_CurrentPv = document.getElementById("currentPV");
